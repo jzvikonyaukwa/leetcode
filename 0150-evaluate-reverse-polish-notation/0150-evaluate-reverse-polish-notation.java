@@ -1,39 +1,34 @@
 class Solution {
         public  int evalRPN(String[] tokens) {
-        Deque stack =new ArrayDeque<>();
+           Deque<Integer> stack = new ArrayDeque<>();
 
-        for(String t:tokens){
-            if(t.equals("+")){
-                stack.push(Integer.parseInt(stack.pop().toString()) + Integer.parseInt(stack.pop().toString()));
-                continue;
-            }
-            if(t.equals("-")){
-                var a=Integer.parseInt(stack.pop().toString());
-                var b=Integer.parseInt(stack.pop().toString());
-
-                stack.push(b-a);
-                continue;
-            }
-            if(t.equals("*")){
-                stack.push(Integer.parseInt(stack.pop().toString()) * Integer.parseInt(stack.pop().toString()));
-
-                continue;
-
-            }
-            if(t.equals("/")){
-                var a=Integer.parseInt(stack.pop().toString());
-                var b=Integer.parseInt(stack.pop().toString());
-                stack.push(b/a);
-                continue;
-
+        for (String token : tokens) {
+            switch (token) {
+                case "+":
+                    stack.push(stack.pop() + stack.pop());
+                    break;
+                case "-":
+                    int subtrahend = stack.pop();
+                    int minuend = stack.pop();
+                    stack.push(minuend - subtrahend);
+                    break;
+                case "*":
+                    stack.push(stack.pop() * stack.pop());
+                    break;
+                case "/":
+                    int divisor = stack.pop();
+                    int dividend = stack.pop();
+                    stack.push(dividend / divisor);
+                    break;
+                default:
+                        stack.push(Integer.parseInt(token));
 
             }
-            else
-                stack.push(t);
-
         }
 
-        return Integer.parseInt(stack.getFirst().toString());
+      
+
+        return stack.pop();
     }
 
 }
