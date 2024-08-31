@@ -3,6 +3,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/jzvikonyaukwa/leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/jzvikonyaukwa/leetcode/tree/master/0009-palindrome-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/jzvikonyaukwa/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Array
@@ -30,4 +31,12 @@
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/jzvikonyaukwa/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/jzvikonyaukwa/leetcode/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/jzvikonyaukwa/leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
