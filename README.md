@@ -14,6 +14,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/jzvikonyaukwa/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jzvikonyaukwa/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 ## Hash Table
 |  |
@@ -23,6 +24,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jzvikonyaukwa/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/jzvikonyaukwa/leetcode/tree/master/0005-longest-palindromic-substring) |
 ## Sliding Window
 |  |
 | ------- |
@@ -39,4 +41,8 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/jzvikonyaukwa/leetcode/tree/master/0002-add-two-numbers) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/jzvikonyaukwa/leetcode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
