@@ -9,7 +9,6 @@ class Solution {
             }
             index++;
 
-
         }
         return -1;
     }
