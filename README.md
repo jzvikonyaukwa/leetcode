@@ -11,6 +11,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/jzvikonyaukwa/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jzvikonyaukwa/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/jzvikonyaukwa/leetcode/tree/master/0035-search-insert-position) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/jzvikonyaukwa/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Two Pointers
 |  |
@@ -58,6 +59,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/jzvikonyaukwa/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0035-search-insert-position](https://github.com/jzvikonyaukwa/leetcode/tree/master/0035-search-insert-position) |
 ## Divide and Conquer
 |  |
 | ------- |
